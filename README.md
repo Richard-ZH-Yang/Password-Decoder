@@ -11,7 +11,7 @@ by appending to the current string all possibilities for one additional characte
 
 
 
-## Usage
+## How to Use
 <p>Step 1 make the file:<br>
 make
 
