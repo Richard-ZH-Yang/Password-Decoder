@@ -5,11 +5,10 @@
 a brute force strategy to help systematically search the password. It uses a thread pool to control multiple threads to 
 maximize efficiency. And tasks can be created by other tasks to take advantage of the thread pool structure, 
 by appending to the current string all possibilities for one additional character (e.g., the task handling the string 
-"1234" creates and schedules new tasks for strings "1340", "1341", "1342", etc.)</p>
+"123" creates and schedules new tasks for strings "1230", "1231", "1232", etc.)</p>
 
-### Motivation
-<p>This is one of the academic projects from an Introduction to Computer Systems course at UBC. And I find this project
-very interesting and inspiring.</p>
+<p>This project is built for academic purposes for an Introduction to Computer Systems course at UBC.</p>
+
 
 
 ## Usage
